@@ -1,0 +1,5 @@
+{ 
+	cssIn: '../Content/main.css', 
+	out: '../Content/main.min.css', 
+	optimizeCss: 'default' 
+}

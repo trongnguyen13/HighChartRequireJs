@@ -1,0 +1,8 @@
+{
+  "baseUrl": "../Scripts/Dashboard/", "name": "main", "include": ["../jquery-2.1.1","../jquery-ui","../bootstrap",
+"../underscore", "../Highcharts-4.0.1/js/highcharts", "../Highcharts-4.0.1/js/highcharts-more", "../typeahead.bundle", "../require",
+"Controllers/organisationChartController", "Controllers/teamChartController"
+    ], "exclude": [], "optimize": "uglify2", "out": "main-built.js", "insertRequire": [
+"main"
+  ]
+}

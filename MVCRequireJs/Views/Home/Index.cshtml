@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    $(function () {
+        var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+  'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+  'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+  'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+  'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+  'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+  'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+  'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+];
+
+        $("#teamSearch .typeahead").typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        },
+{
+    name: 'states',
+    displayKey: 'value',
+    source: substringMatcher(states)
+});
+});
+
+var substringMatcher = function (strs) {
+    return function findMatches(q, cb) {
+        var matches, substrRegex;
+
+        // an array that will be populated with substring matches
+        matches = [];
+
+        // regex used to determine if a string contains the substring `q`
+        substrRegex = new RegExp(q, 'i');
+
+        // iterate through the pool of strings and for any string that
+        // contains the substring `q`, add it to the `matches` array
+        $.each(strs, function (i, str) {
+            if (substrRegex.test(str)) {
+                // the typeahead jQuery plugin expects suggestions to a
+                // JavaScript object, refer to typeahead docs for more info
+                matches.push({ value: str });
+            }
+        });
+
+        cb(matches);
+    };
+};
+</script>
+<div class="container">
+    <div id="content">
+        <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+            <li class="active"><a href="#org" id="#organisation" data-toggle="tab">Organisation</a></li>
+            <li><a href="#team" id="#team" data-toggle="tab">Team</a></li>
+            <li><a href="#teamMember" data-toggle="tab">Team Member</a></li>
+            <li><a href="#customer" data-toggle="tab">Customer</a></li>
+        </ul>
+        <div id="my-tab-content" class="tab-content">
+            <div class="tab-pane active" id="org">
+                <div class="col-md-12">
+                    <div id="teamSearch">
+                    <input type="text" class="typeahead" />
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-6">@Html.Partial("Charts/GaugeChart")</div>
+                    <div class="col-md-6">@Html.Partial("Charts/AgeProfileChart")</div>
+                </div>
+            </div>
+            <div class="tab-pane" id="team">
+                  <div class="col-md-12">
+                    <div class="col-md-6">@Html.Partial("Charts/GaugeChartForTeam")</div>
+                    <div class="col-md-6">@Html.Partial("Charts/AgeProfileChartForTeam")</div>
+                </div>
+            </div>
+            <div class="tab-pane" id="teamMember">
+                Team Member
+            </div>
+            <div class="tab-pane" id="customer">
+                Customer 
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#tabs').tab();
+    });
+</script> 

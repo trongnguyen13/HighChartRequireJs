@@ -1,0 +1,39 @@
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\MVCRequireJs.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\MVCRequireJs.pdb
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\DotNet.Highcharts.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Highcharts.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Highcharts.MVC.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Newtonsoft.Json.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\RequireJsNet.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Highcharts.pdb
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Highcharts.MVC.pdb
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\bin\Newtonsoft.Json.xml
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\obj\Release\MVCRequireJs.dll
+C:\Documents and Settings\nguyen\my documents\visual studio 2010\Projects\MVCRequireJs\MVCRequireJs\obj\Release\MVCRequireJs.pdb
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\MVCRequireJs.dll.config
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\MVCRequireJs.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\MVCRequireJs.pdb
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Highcharts.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Highcharts.MVC.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Helpers.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Mvc.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Razor.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.Deployment.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.Razor.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Newtonsoft.Json.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Highcharts.pdb
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Highcharts.MVC.pdb
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Helpers.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Mvc.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.Razor.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.Deployment.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\System.Web.WebPages.Razor.xml
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\obj\Release\MVCRequireJs.csprojResolveAssemblyReference.cache
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\obj\Release\MVCRequireJs.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\obj\Release\MVCRequireJs.pdb
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\RequireJsNet.dll
+D:\Code\Sample\MVCRequireJs\MVCRequireJs\bin\Newtonsoft.Json.xml
